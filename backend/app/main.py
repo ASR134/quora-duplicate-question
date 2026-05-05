@@ -14,6 +14,7 @@ from nltk.stem import PorterStemmer
 import distance
 from fastapi.responses import JSONResponse
 import nltk
+from fastapi.middleware.cors import CORSMiddleware
 nltk.download('punkt')
 nltk.download('stopwords')
 
@@ -40,6 +41,13 @@ with open(scalar_path, "rb") as f:
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # later restrict this
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # pydantic model
 class Question_input(BaseModel):
