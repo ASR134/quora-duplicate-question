@@ -12,3 +12,5 @@ python-Levenshtein==0.25.1
 distance
 
 pydantic==2.7.1
+setuptools>=68.0.0
+wheel
