@@ -10,3 +10,4 @@ scipy
 distance
 scikit-learn==1.7.1
 xgboost
+scipy==1.13.1  
