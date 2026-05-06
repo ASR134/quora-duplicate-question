@@ -16,6 +16,7 @@ from fastapi.responses import JSONResponse
 import nltk
 from fastapi.middleware.cors import CORSMiddleware
 nltk.download('punkt')
+nltk.download('punkt_tab') 
 nltk.download('stopwords')
 
 
