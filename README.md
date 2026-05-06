@@ -10,7 +10,7 @@ Built with:
 ---
 
 ## 🚀 Live Demo
-👉 Frontend: *(Add your Streamlit link here)*  
+👉 Frontend: https://semantiq-asr.streamlit.app/ 
 👉 API: https://quora-duplicate-question-zuq9.onrender.com
 
 ---
